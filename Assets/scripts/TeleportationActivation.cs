@@ -18,4 +18,11 @@ public class TeleportationActivation : MonoBehaviour
     {
         teleportInteractor.gameObject.SetActive(true);
     }
+
+    private void Update()
+    {
+        if(teleportActivatorAction.action.WasReleasedThisFrame()) {
+        teleportInteractor.gameObject.SetActive(false) ;
+        }
+    }
 }
