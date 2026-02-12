@@ -3,7 +3,22 @@ guid: 3be5e397bb8e66d49976602c42406bb2
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Herringbone _AO
+    second: {fileID: 2800000, guid: fdf2a3109b5882a459985a9c7105490d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Herringbone _Red_Albedo
+    second: {fileID: 2800000, guid: baaa8cfe494879f4ab0c4356e9bddbc9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Herringbone_MetallicSmoothness
+    second: {fileID: 2800000, guid: c157ae9e870f8f24b9584cbaa0b79119, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
