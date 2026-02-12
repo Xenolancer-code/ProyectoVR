@@ -1573,6 +1573,17 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1369518717}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1632265444 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2436856160726291809, guid: 0cd65518af62ad24ca9fe73f1a2eb2b3, type: 3}
+  m_PrefabInstance: {fileID: 5147401033283181164}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6803edce0201f574f923fd9d10e5b30a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1789055872
 GameObject:
   m_ObjectHideFlags: 0
@@ -2339,7 +2350,7 @@ PrefabInstance:
     - target: {fileID: 601358263371969216, guid: 0cd65518af62ad24ca9fe73f1a2eb2b3, type: 3}
       propertyPath: teleportInteractor
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1632265444}
     - target: {fileID: 2970632192656443263, guid: 0cd65518af62ad24ca9fe73f1a2eb2b3, type: 3}
       propertyPath: m_Name
       value: VRPlayer
