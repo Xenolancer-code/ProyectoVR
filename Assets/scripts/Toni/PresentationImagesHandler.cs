@@ -15,9 +15,13 @@ public class PresentationImagesHandler : MonoBehaviour
     private List<Texture2D> images = new List<Texture2D>();
     private int currentIndex = 0;
 
-    /// <summary>
-    /// Call this to open folder picker and load all images inside
-    /// </summary>
+    private bool isTVon = false;
+
+    void Start()
+    {
+        targetRawImage.enabled = isTVon;
+    }
+
     public void OpenFolderAndLoadImages()
     {
         // Open folder dialog
@@ -29,9 +33,6 @@ public class PresentationImagesHandler : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Loads all PNG/JPG images from a folder
-    /// </summary>
     private void LoadAllImagesFromFolder(string folderPath)
     {
         images.Clear();
@@ -99,5 +100,11 @@ public class PresentationImagesHandler : MonoBehaviour
 
         currentIndex = (currentIndex - 1 + images.Count) % images.Count;
         DisplayImage(currentIndex);
+    }
+
+    public void TurnScreenOnOff()
+    {
+        isTVon = !isTVon;
+        targetRawImage.enabled = isTVon ? false : true;
     }
 }
