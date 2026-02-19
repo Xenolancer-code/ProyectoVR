@@ -1366,7 +1366,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60c6ad2f3afaa624f944f1ee66fa06cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  teleportInteractor: {fileID: 0}
+  teleportInteractor: {fileID: 2436856160726291809}
   teleportActivatorAction:
     m_UseReference: 1
     m_Action:
@@ -1514,6 +1514,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1800acf6366418a9b5f610249000331, type: 3}
+--- !u!114 &2436856160726291809 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2761784063978902503, guid: c1800acf6366418a9b5f610249000331, type: 3}
+  m_PrefabInstance: {fileID: 541171090619893382}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6803edce0201f574f923fd9d10e5b30a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &2436856160726291820 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2761784063978902506, guid: c1800acf6366418a9b5f610249000331, type: 3}
